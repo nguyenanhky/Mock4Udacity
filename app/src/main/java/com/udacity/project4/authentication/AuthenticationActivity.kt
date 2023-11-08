@@ -29,7 +29,6 @@ class AuthenticationActivity : AppCompatActivity() {
 
     // Get a reference to the ViewModel scoped to this Fragment
     private val viewModel by viewModels<AuthenticationViewModel>()
-
     companion object {
         const val TAG = "AuthenticationActivity"
         const val SIGN_IN_RESULT_CODE = 1001
